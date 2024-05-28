@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar-nav a.Home{
+    border-bottom: 2px solid #56aed4;
+}
+.btn-1{
+    background-color: #56aed4;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 300px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    color: black;
+}
+.par-photo{
+    position: relative;
+    display: flex;
+    top: 60px;
+    gap: 40px;
+}
+.lists{
+    position: relative;
+    right: 20px;
+}
+.list{
+    display: flex;
+}
+.btn-2{
+    background-color: #56aed4;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    color: black;
+}
+.second-section{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.par-2{
+    width: 45%;
+    font-size: 23px;
+    text-align: end;
+}
+.third-section{
+    position: relative;
+    top: 300px;
+}
+.services{
+    text-align: center;
+}
+.services h1{
+    font-weight: bold;
+}
+.services span{
+    color: #56aed4;
+}
+.boxs{
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    justify-content: center;
+}
+.box img{
+    width: 50px;
+    height: 15vh;
+}
+.forth-section{
+    position: relative;
+    top: 400px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 5%;
+    width: 100%;
+    height: 100vh;
+}
+.callers-boxs{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    text-align: start;
+    gap: 30px;
+}
+.caller-box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+}
+.caller-box h4{
+    font-weight: bold;
+}
+.caller-box h3{
+    color: #56aed4;
+    font-size: 20px;
+}
+.caller-box span{
+    font-size: 30px;
+}
+.btn-3{
+    background-color: #56aed4;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn-3:hover{
+    color: black;
+}
+.fifth-section{
+    position: relative;
+    top: 500px;
+    display: flex;
+    align-items: center;
+}
+.contact-us{
+    width: 50%;
+}
+.forms{
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.btn{
+    font-weight: 400;
+    background-color: #56aed4;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.call-phone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #56aed4;
+}
+.ri-headphone-fill{
+    font-size: 70px;
+    color: #56aed4;
+}
+.footer{
+    position: relative;
+    top: 700px;
+    padding: 30px;
+    background-image: url(../photos/digital-world-map-3d-render_242662-659.jpg);
+}
+.footer img{
+    width: 300px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.contact-icon{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.diaa{
+    text-align: center;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 990px){
+    .navbar-nav a.Home{
+        border-bottom: 2px solid #56aed4;
+        width: 50px;
+    }
+    .btn-1{
+        background-color: #56aed4;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: 0px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 3px;
+        transition: 0.5s;
+    }
+    .par-photo{
+        position: relative;
+        display: block;
+        top: 60px;
+        gap: 40px;
+    }
+    .home-photo{
+        position: relative;
+        top: 20px;
+        width: 100%;
+        height: 100vh;
+    }
+    .second-section{
+        position: relative;
+        top: 200px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .par-2{
+        width: 100%;
+        font-size: 23px;
+        text-align: end;
+    }
+    .photo-second{
+        width: 100%;
+    }
+    .boxs{
+        position: relative;
+        top: 50px;
+        display: block;
+        gap: 50px;
+        
+    }
+    .box{
+        display: flex;
+        background-color: #f0f0f0;
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .forth-section{
+        position: relative;
+        top: 400px;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding-top: 5%;
+        width: 100%;
+        height: 153vh;
+    }
+    .callers-boxs{
+        position: relative;
+        display: block;
+        justify-content: center;
+        padding-top: 40px;
+        text-align: start;
+        gap: 30px;
+    }
+    .caller-box{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fifth-section{
+        position: relative;
+        top: 500px;
+        display: block;
+        align-items: center;
+    }
+    .contact-us{
+        width: 100%;
+    }
+    .forms{
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .footer-top{
+        display: block;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-icon{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media screen and (max-width: 600px){
+    .navbar-nav a.Home{
+        border-bottom: 2px solid #56aed4;
+        width: 50px;
+    }
+    .btn-1{
+        background-color: #56aed4;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: 0px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 3px;
+        transition: 0.5s;
+    }
+    .par-photo{
+        position: relative;
+        display: block;
+        top: 60px;
+        gap: 40px;
+    }
+    .home-photo{
+        position: relative;
+        top: 20px;
+        width: 100%;
+        height: 100vh;
+    }
+    .second-section{
+        position: relative;
+        top: 200px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .par-2{
+        width: 100%;
+        font-size: 23px;
+        text-align: end;
+    }
+    .photo-second{
+        width: 100%;
+    }
+    .boxs{
+        position: relative;
+        top: 50px;
+        display: block;
+        gap: 50px;
+        
+    }
+    .box{
+        display: flex;
+        background-color: #f0f0f0;
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .forth-section{
+        position: relative;
+        top: 400px;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding-top: 5%;
+        width: 100%;
+        height: 153vh;
+    }
+    .callers-boxs{
+        position: relative;
+        display: block;
+        justify-content: center;
+        padding-top: 40px;
+        text-align: start;
+        gap: 30px;
+    }
+    .caller-box{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fifth-section{
+        position: relative;
+        top: 500px;
+        display: block;
+        align-items: center;
+    }
+    .contact-us{
+        width: 100%;
+    }
+    .forms{
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .footer-top{
+        display: block;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-icon{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media screen and (max-width: 300px){
+    .navbar-nav a.Home{
+        border-bottom: 2px solid #56aed4;
+        width: 50px;
+    }
+    .btn-1{
+        background-color: #56aed4;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: 0px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 3px;
+        transition: 0.5s;
+    }
+    .par-photo{
+        position: relative;
+        display: block;
+        top: 60px;
+        gap: 40px;
+    }
+    .home-photo{
+        position: relative;
+        top: 20px;
+        width: 100%;
+        height: 100vh;
+    }
+    .second-section{
+        position: relative;
+        top: 200px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .par-2{
+        width: 100%;
+        font-size: 23px;
+        text-align: end;
+    }
+    .photo-second{
+        width: 100%;
+    }
+    .boxs{
+        position: relative;
+        top: 50px;
+        display: block;
+        gap: 50px;
+        
+    }
+    .box{
+        display: flex;
+        background-color: #f0f0f0;
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .forth-section{
+        position: relative;
+        top: 400px;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding-top: 5%;
+        width: 100%;
+        height: 153vh;
+    }
+    .callers-boxs{
+        position: relative;
+        display: block;
+        justify-content: center;
+        padding-top: 40px;
+        text-align: start;
+        gap: 30px;
+    }
+    .caller-box{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fifth-section{
+        position: relative;
+        top: 500px;
+        display: block;
+        align-items: center;
+    }
+    .contact-us{
+        width: 100%;
+    }
+    .forms{
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .footer-top{
+        display: block;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-icon{
+        text-decoration: none;
+        color: white;
+    }
+}

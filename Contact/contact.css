@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar-nav a.Contact{
+    border-bottom: 2px solid #56aed4;
+}
+.btn-1{
+    background-color: #56aed4;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 300px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    color: black;
+}
+.fifth-section{
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+}
+.contact-us{
+    width: 50%;
+}
+.forms{
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.btn{
+    font-weight: 400;
+    background-color: #56aed4;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.call-phone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #56aed4;
+}
+.ri-headphone-fill{
+    font-size: 70px;
+    color: #56aed4;
+}
+.footer{
+    position: relative;
+    top: 200px;
+    padding: 30px;
+    background-image: url(../photos/digital-world-map-3d-render_242662-659.jpg);
+}
+.footer img{
+    width: 300px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.contact-icon{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.diaa{
+    text-align: center;
+    color: white;
+}
